@@ -7,7 +7,7 @@ let showOnboarding = true;
 //img classifier
 let classifier;
 let label = "";
-let imageModelURL = 'myData/model.json';
+let imageModelURL = '/myData/model.json';
 
 
 function preload(){
