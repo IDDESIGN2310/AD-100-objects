@@ -12,7 +12,7 @@ let imageModelURL = 'https://teachablemachine.withgoogle.com/models/AUTrhedbH/';
 
 function preload(){
   //showOnboarding = true;
-  classifier = ml5.imageClassifier(imageModelURL, modelLoaded);
+  classifier = ml5.imageClassifier(imageModelURL+'model.json', modelLoaded);
 }
 
 function setup() {
