@@ -43,7 +43,7 @@ function draw() {
     
       fill(0)
       let capSize = `cw : ${cameraFeed.width}, ch: ${cameraFeed.height}`
-      text(capSize, 20, 20)
+      text(capSize, 50, 20)
     
         // Draw the label
       rect(0,height-60, width, 60)
