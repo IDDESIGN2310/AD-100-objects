@@ -42,16 +42,16 @@ function draw() {
      
     
       fill(0)
-      let capSize = `cw : ${cameraFeed.width}, ch: ${cameraFeed.height}`
-      text(capSize, 50, 20)
+      //let capSize = `cw : ${cameraFeed.width}, ch: ${cameraFeed.height}`
+      //text(capSize, 30, 20)
     
         // Draw the label
       rect(0,height-60, width, 60)
       fill(255);
       textSize(16);
-      //textAlign(CENTER);
-      //text(label, width / 2, height - 20);
-      text(label, 20, 80);
+      textAlign(CENTER);
+      text(label, width / 2, height - 20);
+      //text(label, 20, 80);
       fill(0)
       showOnboarding = false;
   }
