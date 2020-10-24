@@ -50,7 +50,8 @@ function draw() {
       fill(255);
       textSize(16);
       textAlign(CENTER);
-      text(label, width / 2, height - 20);
+   //text(label, width / 2, height - 20);
+      text(label, 20, 40);
       fill(0)
       showOnboarding = false;
   }
