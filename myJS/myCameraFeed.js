@@ -32,9 +32,9 @@ function makeCameraFeedReady() {
             let constraints = {
               video: {
                 deviceId: devices[1].deviceId,
-                width: { exact: 320 },
-                height: { exact: 240 },
-                frameRate: {max: 24}
+                width: { exact: 256 },
+                height: { exact: 192 },
+                frameRate: {max: 30}
               },
               audio: false
             };
